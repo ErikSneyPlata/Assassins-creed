@@ -33,7 +33,7 @@ img {
             rgba(255, 255, 255, 0),
             rgba(0, 0, 0, 0.429)
         ),
-        url(https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5kUVEaHdGVt7velRJbfF9m/aea0a97f27c70636352f54e620c26a07/Desktop_HeroImage_3840x1800.jpg);
+        url(/images/shadows.avif);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,6 +61,8 @@ img {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+
 
 .menu .navbar ul {
     display: flex;
@@ -95,6 +97,34 @@ img {
 .menu label {
     cursor: pointer;
     display: none;
+}
+
+
+#login{
+    display: inline-block;
+    padding: 1px 10px;
+    margin: 20px;
+    
+
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(
+        90deg,
+        rgba(245, 99, 72, 1) 20%,
+        rgba(254, 148, 32, 1) 100%
+    );
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#login:hover{
+    background: linear-gradient(
+        90deg,
+        rgba(126, 111, 94, 0.761) 20%,
+        rgba(245, 72, 72, 0.818) 100%
+    );
 }
 
 .header-text {
@@ -202,6 +232,9 @@ p {
         padding: 10px 20px;
         font-size: 14px;
     }
+    #login{
+        width: 60vw;
+    }
 }
 
 /* Sección About */
@@ -226,6 +259,90 @@ p {
     width: 100%;
     max-width: 800px; /* Ancho máximo para mantener legibilidad */
     margin-bottom: 100px;
+}
+
+.rotating-text-wrapper {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .rotating-text-wrapper h2 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0.3em;
+    color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+  }
+  .rotating-text-wrapper h2:nth-child(1) {
+    background-color: tomato;
+    animation-name: rotating-text-1;
+  }
+  @keyframes rotating-text-1 {
+    0% {
+      transform: translateY(200%);
+    }
+    33% {
+      transform: translateY(100%);
+      opacity: 1;
+    }
+    34% {
+      opacity: 0;
+    }
+  }
+  .rotating-text-wrapper h2:nth-child(2) {
+    background-color:steelblue;
+    animation-name: rotating-text-2;
+  }
+  @keyframes rotating-text-2 {
+    33% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    66% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    67% {
+      opacity: 0;
+    }
+  }
+  .rotating-text-wrapper h2:nth-child(3) {
+    background-color:slategrey;
+    animation-name: rotating-text-3;
+  }
+  @keyframes rotating-text-3 {
+    66% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    99% {
+      transform: translateY(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .rotating-text-wrapper {
+      font-size: 0.7rem;
+    }
+  }
+  
+
+.video-about {
+    margin-bottom: 90px; 
+    width: 70vw;
+    height: auto;
+    border: rgba(255, 255, 255, 0.3) solid 5px;
+    border-radius: 10px;
 }
 
 .titulo {
@@ -284,6 +401,13 @@ footer {
     article p {
         font-size: 14px;
     }
+    #login{
+        margin: 0px;
+    }
+    .video-about{
+        width: 100vw;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -301,5 +425,11 @@ footer {
 
     article p {
         font-size: 12px;
+    }
+    #login{
+        margin: 0px;
+    }
+    .video-about{
+        width: 100vw;
     }
 }

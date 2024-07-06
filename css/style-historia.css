@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(/images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Wittgenstein", serif;
+    color: #fff; /* Se cambió el color por defecto para mayor contraste */
+}
+
+
+
+/* ------------------------------------------------------------- */
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(1, 1, 1, 1)
+    );
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    align-items: center;
+    min-height: 9vh;
+    max-width: 100vw;
+    padding: 100px 0 0 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    color: tomato;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+
+.menu .navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .navbar ul li {
+    position: relative;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: tomato;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+#login{
+    display: inline-block;
+    padding: 1px 10px;
+    margin: 20px;
+    
+
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(
+        90deg,
+        rgba(245, 99, 72, 1) 20%,
+        rgba(254, 148, 32, 1) 100%
+    );
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#login:hover{
+    background: linear-gradient(
+        90deg,
+        rgba(126, 111, 94, 0.761) 20%,
+        rgba(245, 72, 72, 0.818) 100%
+    );
+}
+
+@media (max-width: 768px) {
+    .header {
+        background-position: center;
+        padding: 55px 0;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu .navbar {
+        display: none;
+        width: 100%;
+    }
+
+    .menu label {
+        display: block;
+        color: white;
+    }
+
+    #menu:checked ~ .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu .navbar ul {
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu .navbar ul li a {
+        width: 100%;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-1 {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    #login{
+        width: 60vw;
+    }
+}
+
+
+/* Estilos del Main */
+.history {
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.6);;
+    color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history-content {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.history-intro {
+    margin-bottom: 30px;
+}
+
+.history-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timeline-item {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.timeline-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #66FCF1;
+}
+
+.timeline-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos responsivos */
+@media (max-width: 1200px) {
+    .history-content {
+        padding: 0 20px;
+    }
+    .timeline-item {
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .history-content {
+        padding: 0 20px;
+    }
+    .timeline-item {
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline-item {
+        max-width: 100%;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    margin-top: 40px;
+    color: white;
+}

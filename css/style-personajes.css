@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(/images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Wittgenstein", serif;
+    color: #fff; /* Se cambió el color por defecto para mayor contraste */
+}
+
+
+
+/* ------------------------------------------------------------- */
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(1, 1, 1, 1)
+    );
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    align-items: center;
+    min-height: 9vh;
+    max-width: 100vw;
+    padding: 100px 0 0 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    color: tomato;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+
+.menu .navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .navbar ul li {
+    position: relative;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: tomato;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+#login{
+    display: inline-block;
+    padding: 1px 10px;
+    margin: 20px;
+    
+
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(
+        90deg,
+        rgba(245, 99, 72, 1) 20%,
+        rgba(254, 148, 32, 1) 100%
+    );
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#login:hover{
+    background: linear-gradient(
+        90deg,
+        rgba(126, 111, 94, 0.761) 20%,
+        rgba(245, 72, 72, 0.818) 100%
+    );
+}
+
+@media (max-width: 768px) {
+    .header {
+        background-position: center;
+        padding: 55px 0;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu .navbar {
+        display: none;
+        width: 100%;
+    }
+
+    .menu label {
+        display: block;
+        color: white;
+    }
+
+    #menu:checked ~ .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu .navbar ul {
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu .navbar ul li a {
+        width: 100%;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-1 {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    #login{
+        width: 60vw;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(/images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Wittgenstein", serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header .logo {
+    font-size: 25px;
+    font-weight: 800;
+    color: tomato;
+}
+
+header .navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+header .navbar ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+header .navbar ul li a:hover {
+    color: tomato;
+}
+
+/* CSS para el main */
+
+.characters {
+    padding: 50px 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);;
+}
+
+.characters h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: tomato;
+}
+
+.characters h1 strong{
+    color: rgba(254, 148, 32, 1);
+}
+
+.character-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.character-card img {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.character-card:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.character-card h2 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: tomato;
+}
+
+.character-card p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    margin-top: 40px;
+    color: white;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .character-card {
+        max-width: 80%;
+    }
+
+    .characters h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .character-card {
+        max-width: 100%;
+    }
+
+    .characters h1 {
+        font-size: 24px;
+    }
+
+    .character-card h2 {
+        font-size: 20px;
+    }
+
+    .character-card p {
+        font-size: 16px;
+    }
+}
