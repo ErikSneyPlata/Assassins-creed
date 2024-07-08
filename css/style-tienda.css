@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     font-family: "Wittgenstein", serif;
-    color: #fff; /* Se cambió el color por defecto para mayor contraste */
+    color: #fff; 
 }
 
 .container {
@@ -117,7 +117,7 @@ body {
     );
 }
 
-/* Main styles for games */
+/* Main */
 .games {
     padding: 50px 15px;
     text-align: center;

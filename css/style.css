@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     font-family: "Wittgenstein", serif;
-    color: #fff; /* Se cambió el color por defecto para mayor contraste */
+    color: #fff; 
 }
 
 img {
@@ -237,7 +237,7 @@ p {
     }
 }
 
-/* Sección About */
+/* Sección About - Main */
 .about {
     max-width: 100vw;
     padding: 50px 15px;
@@ -252,12 +252,12 @@ p {
 .about-content, article{
     padding: 20px;
     margin: 20px 0;
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    background-color: rgba(255, 255, 255, 0.1); 
     border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px; /* Bordes redondeados */
     text-align: center;
     width: 100%;
-    max-width: 800px; /* Ancho máximo para mantener legibilidad */
+    max-width: 800px; 
     margin-bottom: 100px;
 }
 
@@ -353,7 +353,7 @@ p {
 .titulo h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: tomato; /* Color de título */
+    color: tomato; 
 }
 
 
@@ -369,7 +369,8 @@ footer{
     color: white;
 }
 
-/* Estilos responsivos */
+/* RESPONSIVE */
+
 @media (max-width: 1200px) {
     .about {
         padding: 50px;

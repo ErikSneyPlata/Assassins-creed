@@ -20,7 +20,7 @@ body {
 
 
 
-/* ------------------------------------------------------------- */
+/* ----------------------------HEADER--------------------------------- */
 img {
     max-width: 100%;
 }
@@ -237,7 +237,7 @@ header .navbar ul li a:hover {
     color: tomato;
 }
 
-/* CSS para el main */
+/*  main */
 
 .characters {
     padding: 50px 15px;
@@ -302,8 +302,7 @@ footer{
     margin-top: 0px;
     color: white;
 }
-
-/* Estilos responsivos */
+/* RESPONSIVE */
 @media (max-width: 768px) {
     .character-card {
         max-width: 80%;

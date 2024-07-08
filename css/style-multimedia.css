@@ -20,7 +20,7 @@ body {
 
 
 
-/* ------------------------------------------------------------- */
+/* ----------------------------HEADER--------------------------------- */
 img {
     max-width: 100%;
 }
@@ -184,7 +184,7 @@ img {
 }
 
 
-/* ----------------- */
+/* --------MAIN--------- */
 
 .multimedia{
     background-color: rgba(0, 0, 0, 0.6);
@@ -248,7 +248,7 @@ h2 {
 
 .video-item iframe {
     width: 100%;
-    height: 315px; /* Ajusta la altura según necesites */
+    height: 315px; 
 }
 
 @media (max-width: 768px) {
