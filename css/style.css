@@ -237,7 +237,7 @@ p {
     }
 }
 
-/* Sección About - Main */
+/* About - Main */
 .about {
     max-width: 100vw;
     padding: 50px 15px;
@@ -260,6 +260,8 @@ p {
     max-width: 800px; 
     margin-bottom: 100px;
 }
+
+/* animacion */
 
 .rotating-text-wrapper {
     height: 60vh;
