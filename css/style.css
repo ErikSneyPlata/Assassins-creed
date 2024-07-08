@@ -361,13 +361,12 @@ article p {
     margin-bottom: 15px;
 }
 
-footer {
-    text-align: left;
-    padding: 10px;
-    background-color: #f1f1f1;
-    color: #333; /* Mejor contraste con el fondo */
-    background-color: rgba(0, 0, 0, 0.6);
-
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    margin-top: 0px;
+    color: white;
 }
 
 /* Estilos responsivos */

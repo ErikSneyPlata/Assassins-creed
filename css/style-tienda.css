@@ -18,13 +18,6 @@ body {
     color: #fff; /* Se cambió el color por defecto para mayor contraste */
 }
 
-
-
-/* ------------------------------------------------------------- */
-img {
-    max-width: 100%;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -40,7 +33,6 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    
     align-items: center;
     min-height: 9vh;
     max-width: 100vw;
@@ -64,8 +56,6 @@ img {
     font-weight: 800;
     text-transform: uppercase;
 }
-
-
 
 .menu .navbar ul {
     display: flex;
@@ -102,13 +92,10 @@ img {
     display: none;
 }
 
-
-#login{
+#login {
     display: inline-block;
     padding: 1px 10px;
     margin: 20px;
-    
-
     color: white;
     text-transform: uppercase;
     background: linear-gradient(
@@ -122,7 +109,7 @@ img {
     transition: background 0.3s ease;
 }
 
-#login:hover{
+#login:hover {
     background: linear-gradient(
         90deg,
         rgba(126, 111, 94, 0.761) 20%,
@@ -130,67 +117,11 @@ img {
     );
 }
 
-@media (max-width: 768px) {
-    .header {
-        background-position: center;
-        padding: 55px 0;
-    }
-
-    .menu {
-        flex-direction: column;
-    }
-
-    .menu .navbar {
-        display: none;
-        width: 100%;
-    }
-
-    .menu label {
-        display: block;
-        color: white;
-    }
-
-    #menu:checked ~ .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu .navbar ul {
-        flex-direction: column;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.9);
-    }
-
-    .menu .navbar ul li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .menu .navbar ul li a {
-        width: 100%;
-        padding: 15px 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .btn-1 {
-        padding: 12px 20px;
-        font-size: 14px;
-    }
-    #login{
-        width: 60vw;
-    }
-}
-
-
- /* -----------------------------------main--------------------------------------- */
-
-/* CSS para el main */
-.games, .shadows {
+/* Main styles for games */
+.games {
     padding: 50px 15px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .games h1 {
@@ -200,27 +131,14 @@ img {
     text-transform: uppercase;
 }
 
-.games h1 strong{
+.games h1 strong {
     color: rgba(254, 148, 32, 1);
-        
 }
 
 .game-grid, .shadows {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.game-new{
-    background-color: rgba(93, 14, 14, 0.587);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    flex: 1 1 calc(33.333% - 40px);
-    max-width: calc(33.333% - 40px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s;
 }
 
 .game-card {
@@ -250,19 +168,86 @@ img {
     font-size: 24px;
 }
 
-footer{
-    text-align: center;
-    padding: 20px;
-    background-color: #111;
-    margin-top: 0px;
-    color: white;
+.game-card p {
+    margin-bottom: 10px;
 }
 
-/* ---------------------------LANZAMIENTO---------------------------- */
+.game-card .buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: white;
+    background: linear-gradient(
+        90deg,
+        rgba(245, 99, 72, 1) 20%,
+        rgba(254, 148, 32, 1) 100%
+    );
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
 
-.game-new h2{
-    margin: 15px 0;
-    font-size: 24px;
+.game-card .buy-button:hover {
+    background: linear-gradient(
+        90deg,
+        rgba(126, 111, 94, 0.761) 20%,
+        rgba(245, 72, 72, 0.818) 100%
+    );
+}
+
+
+.game-new .buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: white;
+    background: linear-gradient(
+        90deg,
+        rgba(245, 99, 72, 1) 20%,
+        rgba(254, 148, 32, 1) 100%
+    );
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.game-new .buy-button:hover {
+    background: linear-gradient(
+        90deg,
+        rgba(126, 111, 94, 0.761) 20%,
+        rgba(245, 72, 72, 0.818) 100%
+    );
+}
+
+.shadows {
+    padding: 50px 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.shadows h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: tomato;
+    text-transform: uppercase;
+}
+
+.shadows h1 strong {
+    color: rgba(254, 148, 32, 1);
+}
+
+.game-new {
+    background-color: rgba(93, 14, 14, 0.587);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
 }
 
 .game-new img {
@@ -271,11 +256,11 @@ footer{
     object-fit: cover;
 }
 
-.game-new:hover{
+.game-new:hover {
     transform: scale(1.05);
 }
 
-/* Estilos responsivos */
+/* Responsive */
 @media (max-width: 768px) {
     .game-card, .game-new {
         flex: 1 1 calc(50% - 40px);
@@ -290,7 +275,10 @@ footer{
     }
 }
 
-
-
-
-
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    margin-top: 0px;
+    color: white;
+}

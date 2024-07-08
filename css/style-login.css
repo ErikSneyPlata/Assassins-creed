@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Wittgenstein", serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: tomato;
+    text-transform: uppercase;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+}
+
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: linear-gradient(
+        90deg,
+        rgba(245, 99, 72, 1) 20%,
+        rgba(254, 148, 32, 1) 100%
+    );
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background: linear-gradient(
+        90deg,
+        rgba(126, 111, 94, 0.761) 20%,
+        rgba(245, 72, 72, 0.818) 100%
+    );
+}
+
+p {
+    margin-top: 20px;
+}
+
+p a {
+    color: tomato;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

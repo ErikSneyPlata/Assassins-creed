@@ -261,10 +261,10 @@ img {
     }
 }
 
-footer {
+footer{
     text-align: center;
     padding: 20px;
     background-color: #111;
-    margin-top: 40px;
+    margin-top: 0px;
     color: white;
 }
