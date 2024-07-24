@@ -35,7 +35,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. **Clonar el repositorio**:
     ```bash
-    git clone https://github.com/tuusuario/assassins-creed-fans.git
+    git clone https://github.com/tuusuario/assassins-creed.git
     ```
 
 2. **Navegar al directorio del proyecto**:
@@ -108,7 +108,7 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 
 - **Imágenes**: Todas las imágenes utilizadas son propiedad de Ubisoft y sus respectivos dueños.
 - **Fuentes**: Las fuentes se obtienen de [Google Fonts](https://fonts.google.com/).
-- **Desarrollador**: [Tu Nombre](https://github.com/tuusuario)
+- **Desarrollador**: Erik Sneyder Plata Arias (https://github.com/ErikSneyPlata)
 
 ## Licencia
 
