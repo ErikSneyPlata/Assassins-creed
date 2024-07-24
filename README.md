@@ -18,31 +18,6 @@ Bienvenido a la página web de Assassin's Creed Fans. Esta página está dedicad
 
 El proyecto está organizado de la siguiente manera:
 
-assassins-creed/ 
-
-├── index.html 
-
-├── juegos.html 
-
-├── personajes.html 
-
-├── historia.html 
-
-├── multimedia.html 
-
-├── tienda.html 
-
-├── login.html 
-
-├── css/ │ 
-├── style-juegos.css │ 
-├── style-login.css │ └── (otros archivos CSS)
- ├── images/ │ 
-├── fondo.jpg │ 
-├── (otros archivos de imágenes) 
-└── README.md
-
-
 - **index.html**: Página de inicio con una descripción general de la saga de Assassin's Creed.
 - **juegos.html**: Lista de todos los juegos de la saga con sus respectivos detalles.
 - **personajes.html**: Información sobre los personajes principales de cada videojuego.
