@@ -1,8 +1,8 @@
-# Assassin's Creed Page
+# Assassin's Creed Page⚔️
 
 Bienvenido a la página web de Assassin's Creed Fans. Esta página está dedicada a todos los fanáticos de la saga de videojuegos Assassin's Creed. Aquí encontrarás información sobre los juegos, personajes, historia y multimedia relacionada con la serie.
 
-## Tabla de Contenidos
+## Tabla de Contenidos👨🏽‍💻
 
 | Sección            | Descripción                                        |
 |--------------------|----------------------------------------------------|
@@ -14,7 +14,7 @@ Bienvenido a la página web de Assassin's Creed Fans. Esta página está dedicad
 | [Créditos](#créditos)         | Créditos a los colaboradores y recursos usados. |
 | [Licencia](#licencia)         | Información sobre la licencia del proyecto.   |
 
-## Estructura del Proyecto
+## Estructura del Proyecto🔰
 
 El proyecto está organizado de la siguiente manera:
 
@@ -29,7 +29,7 @@ El proyecto está organizado de la siguiente manera:
 - **images/**: Carpeta que contiene las imágenes utilizadas en la página.
 - **README.md**: Este archivo, que proporciona una visión general del proyecto.
 
-## Instalación
+## Instalación👩🏼‍🦲
 
 Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
@@ -86,7 +86,7 @@ Los estilos CSS están organizados en archivos separados para facilitar el mante
 - **`style-login.css`**: Estilos específicos para la página de ingreso.
 - **`style.css`**: Estilos generales aplicados a todas las páginas del sitio.
 
-## Características
+## Características🎮🕹️👾
 
 - **Responsive Design**: La página es responsiva y se adapta a diferentes tamaños de pantalla, asegurando una experiencia de usuario óptima en dispositivos móviles y de escritorio.
 - **Diseño Atractivo**: Utiliza imágenes de fondo, colores contrastantes y fuentes personalizadas para un diseño visualmente atractivo.
@@ -115,4 +115,4 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 Este proyecto es de código abierto y se distribuye bajo la licencia MIT.
 ```
 
-
+# ᶠᶸᶜᵏᵧₒᵤ!
