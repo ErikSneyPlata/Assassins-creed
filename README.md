@@ -35,7 +35,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. **Clonar el repositorio**:
     ```bash
-    git clone https://github.com/tuusuario/assassins-creed.git
+    git clone https://github.com/ErikSneyPlata/assassins-creed.git
     ```
 
 2. **Navegar al directorio del proyecto**:
