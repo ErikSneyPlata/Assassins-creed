@@ -4,15 +4,15 @@ Bienvenido a la página web de Assassin's Creed Fans. Esta página está dedicad
 
 ## Tabla de Contenidos
 
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Páginas Principales](#páginas-principales)
-- [Estilos CSS](#estilos-css)
-- [Características](#características)
-- [Contribuciones](#contribuciones)
-- [Créditos](#créditos)
-- [Licencia](#licencia)
+| Sección            | Descripción                                        |
+|--------------------|----------------------------------------------------|
+| [Estructura del Proyecto](#estructura-del-proyecto) | Organización del proyecto y sus archivos. |
+| [Instalación](#instalación)         | Cómo instalar y configurar el proyecto.      |
+| [Uso](#uso)             | Guía de uso de las páginas principales y estilos.  |
+| [Características](#características)  | Características destacadas del proyecto.     |
+| [Contribuciones](#contribuciones)  | Cómo contribuir al proyecto.                 |
+| [Créditos](#créditos)         | Créditos a los colaboradores y recursos usados. |
+| [Licencia](#licencia)         | Información sobre la licencia del proyecto.   |
 
 ## Estructura del Proyecto
 
