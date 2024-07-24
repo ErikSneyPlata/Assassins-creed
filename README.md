@@ -1,4 +1,4 @@
-# Assassin's Creed Fans Page
+# Assassin's Creed Page
 
 Bienvenido a la página web de Assassin's Creed Fans. Esta página está dedicada a todos los fanáticos de la saga de videojuegos Assassin's Creed. Aquí encontrarás información sobre los juegos, personajes, historia y multimedia relacionada con la serie.
 
