@@ -1,4 +1,4 @@
-Páginas Principales
+#Páginas Principales
 
 - Inicio (index.html): Página de inicio con una descripción general de la saga de Assassin's Creed.
 - Juegos (juegos.html): Lista de todos los juegos de la saga con sus respectivos detalles.
@@ -8,7 +8,7 @@ Páginas Principales
 - Tienda (tienda.html): Página de la tienda con enlaces para comprar cada juego.
 - Ingreso (login.html): Página de ingreso para los usuarios registrados.
 
-Estilos CSS
+##Estilos CSS
 
 - style-juegos.css: Estilos específicos para la página de juegos.
 - style-login.css: Estilos específicos para la página de ingreso.
