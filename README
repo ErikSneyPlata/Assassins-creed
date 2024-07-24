@@ -1,23 +1,26 @@
-pagina sobre el video juego de assassins creed.
+Páginas Principales
 
-Index -> pagina principal con informacion de lo que es assassins creed, que trata, entre otras cosas
+- Inicio (index.html): Página de inicio con una descripción general de la saga de Assassin's Creed.
+- Juegos (juegos.html): Lista de todos los juegos de la saga con sus respectivos detalles.
+- Personajes (personajes.html): Información sobre los personajes principales de cada videojuego.
+- Historia (historia.html): Eventos históricos de cada juego.
+- Multimedia (multimedia.html): Galería de imágenes y videos.
+- Tienda (tienda.html): Página de la tienda con enlaces para comprar cada juego.
+- Ingreso (login.html): Página de ingreso para los usuarios registrados.
 
-    1. navbar, para el encabezado (header) y aparece en todas las paginas, enlaces para las demas paginas entre si.
-    2. footer, el mismo para todas la paginas dando informacion relevante de la app con links.
+Estilos CSS
 
+- style-juegos.css: Estilos específicos para la página de juegos.
+- style-login.css: Estilos específicos para la página de ingreso.
 
-juegos -> muestra los videojuegos de la saga de assassins creed, cada uno.
+Características
 
-personajes ->
+- Responsive Design: La página es responsiva y se adapta a diferentes tamaños de pantalla.
+- Diseño Atractivo: Utiliza imágenes de fondo, colores contrastantes y fuentes personalizadas para un diseño visualmente atractivo.
+- Fácil Navegación: Menú de navegación sencillo y claro para acceder a las diferentes secciones de la página.
 
-historia ->
+ Créditos
 
-multimedia ->
-
-tienda ->
-
-login -> 
-
-
-Ajustes de pagina.
-Revisar personajes y completar los textos en lorem, añadir mas informacio relevante y queda pendiente completar el footer como el apartado de login para devolverse
+- Imágenes: Todas las imágenes utilizadas son propiedad de Ubisoft y sus respectivos dueños.
+- Fuentes: Las fuentes se obtienen de Google Fonts.
+- Desarrollador: Erik Sneyder Plata Arias (https://github.com/ErikSneyPlata)
