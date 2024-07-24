@@ -86,7 +86,7 @@ Los estilos CSS están organizados en archivos separados para facilitar el mante
 - **`style-login.css`**: Estilos específicos para la página de ingreso.
 - **`style.css`**: Estilos generales aplicados a todas las páginas del sitio.
 
-## Características🎮🕹️👾
+## Características👾
 
 - **Responsive Design**: La página es responsiva y se adapta a diferentes tamaños de pantalla, asegurando una experiencia de usuario óptima en dispositivos móviles y de escritorio.
 - **Diseño Atractivo**: Utiliza imágenes de fondo, colores contrastantes y fuentes personalizadas para un diseño visualmente atractivo.
