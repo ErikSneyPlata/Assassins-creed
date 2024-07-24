@@ -40,7 +40,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 2. **Navegar al directorio del proyecto**:
     ```bash
-    cd assassins-creed-fans
+    cd assassins-creed
     ```
 
 3. **Abrir los archivos HTML**:
@@ -111,8 +111,8 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 - **Desarrollador**: Erik Sneyder Plata Arias (https://github.com/ErikSneyPlata)
 
 ## Licencia
-''
+```
 Este proyecto es de código abierto y se distribuye bajo la licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE).
-''
+```
 
 
