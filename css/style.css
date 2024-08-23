@@ -22,6 +22,8 @@ img {
     max-width: 100%;
 }
 
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -82,6 +84,14 @@ img {
     display: block;
 }
 
+.menu .navbar ul li strong {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px;
+    color: rgb(226, 30, 8);
+    display: block;
+}
+
 .menu .navbar ul li a:hover {
     color: tomato;
 }
@@ -100,7 +110,7 @@ img {
 }
 
 
-#login{
+#login-link, #logout-button{
     display: inline-block;
     padding: 1px 10px;
     margin: 20px;
@@ -119,7 +129,7 @@ img {
     transition: background 0.3s ease;
 }
 
-#login:hover{
+#login-link:hover, #logout-button:hover{
     background: linear-gradient(
         90deg,
         rgba(126, 111, 94, 0.761) 20%,
@@ -232,7 +242,7 @@ p {
         padding: 10px 20px;
         font-size: 14px;
     }
-    #login{
+    #login-link, #logout-button{
         width: 60vw;
     }
 }
