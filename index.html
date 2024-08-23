@@ -7,7 +7,6 @@
     <title>WICREED</title>
 </head>
 <body>
-    
     <header class="header">
         <div class="menu container">    
             <a href="/index.html" class="logo">ac</a>
@@ -17,13 +16,17 @@
             </label>
             <nav class="navbar">
                 <ul>
+                    <li id="user-info"></li>
                     <li><a href="/index.html">Inicio</a></li>
                     <li><a href="/juegos.html">Juegos</a></li>
                     <li><a href="/personajes.html">Personajes</a></li>
                     <li><a href="/historia.html">Historia</a></li>
-                    <li><a href="/multimendia.html">Multimedia</a></li>
+                    <li><a href="/multimedia.html">Multimedia</a></li>
                     <li><a href="/tienda.html">Tienda</a></li>
-                    <li><a href="/login.html" id="login">Ingresar</a></li>
+                    <li id="auth-links">
+                        <a href="login.html" id="login-link">Login</a>
+                        <a href="#" id="logout-button" style="display: none;">Cerrar Sesión</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -69,9 +72,9 @@
     <footer>
         <hr>
         <p>This page is for all the people who like this game.</p>  
-        <p>Assassin's forever®  </p>
-
+        <p>Assassin's forever®</p>
     </footer>
 
+    <script src="javascript/index.js"></script>
 </body>
 </html>

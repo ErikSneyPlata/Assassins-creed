@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style-login.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
     <title>Ingreso</title>
 </head>
 <body>
     <div class="login-container">
         <h1>BIENVENIDO</h1>
-        <h3>ingresa tus credenciales</h3>
-        <form action="/account.html" method="post">
+        <h3>Ingresa tus credenciales</h3>
+        <form id="login-form">
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
-              </div>
-              <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Password</label>
-              </div>
-            <button type="submit" class="login-button">Ingresar</button>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                <label for="email">Correo Electrónico</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+                <label for="password">Contraseña</label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 login-button mt-3">Ingresar</button>
         </form>
-        <p>¿No tienes una cuenta? <a href="/registro.html">Regístrate</a></p>
+        <p class="text-center mt-3">¿No tienes una cuenta? <a href="/registro.html">Regístrate</a></p>
     </div>
+    <script src="/javascript/login.js"></script>
 </body>
 </html>
+
