@@ -1,0 +1,108 @@
+
+[
+    {
+        "id": "1",
+        "name": "Assassin's Creed",
+        "Lanzamiento": "2007",
+        "Plataformas": ["PS3", "Xbox 360", "PC"],
+        "precio": "100000"
+        
+    },
+        {
+            "id": "2",   
+        "name": "Assassin's Creed II",
+        "Lanzamiento": "2009",
+        "Plataformas": [["PS3", "Xbox 360", "PC"]],
+        "precio": "100000"
+
+     },
+        {
+            "id": "3",
+        "name": "Assassin's Creed Brotherhood",
+        "Lanzamiento": "2010",
+        "Plataformas": ["PS3", "Xbox 360", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "4",
+        "name": "Assassin's Creed Revelations",
+        "Lanzamiento": "2011",
+        "Plataformas": ["PS3", "Xbox 360", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "5",
+        "name": "Assassin's Creed III",
+        "Lanzamiento": "2012",
+        "Plataformas": ["PS3", "Xbox 360", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "6",
+        "name": "Assassin's Creed IV: Black Flag",
+        "Lanzamiento": "2013",
+        "Plataformas": ["PS3", "PS4", "Xbox 360", "Xbox One", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "7",
+        "name": "Assassin's Creed Rogue",
+        "Lanzamiento": "2014",
+        "Plataformas": ["PS3", "Xbox 360", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "8",
+        "name": "Assassin's Creed Unity",
+        "Lanzamiento": "2014",
+        "Plataformas": ["PS4", "Xbox One", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "9",
+        "name": "Assassin's Creed Syndicate",
+        "Lanzamiento": "2015",
+        "Plataformas": ["PS4", "Xbox One", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "10",
+        "name": "Assassin's Creed Origins",
+        "Lanzamiento": "2017",
+        "Plataformas": ["PS4", "Xbox One", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "11",
+        "name": "Assassin's Creed Odyssey",
+        "Lanzamiento": "2018",
+        "Plataformas": ["PS4", "Xbox One", "PC"],
+        "precio": "100000"
+
+        },
+    {
+        "id": "12",
+        "name": "Assassin's Creed Valhalla",
+        "Lanzamiento": "2020",
+        "Plataformas": ["PS4", "PS5", "Xbox One", "Xbox Series X/S", "PC"],
+        "precio": "100000"
+
+    },
+    {
+        "id": "13",
+        "name": "Assassin's Creed Shadows",
+        "Lanzamiento": "12 de noviembre de 2024",
+        "Plataformas": ["PS4", "PS5", "Xbox One", "Xbox Series X/S", "PC"],
+        "precio": "100000"
+
+    }
+
+]
