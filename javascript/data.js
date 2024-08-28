@@ -1,8 +1,8 @@
-localStorage.setItem('test', 'funciona');
-console.log(localStorage.getItem('test'));
+// localStorage.setItem('test', 'funciona');
+// console.log(localStorage.getItem('test'));
 
-// Registro de usuario
-console.log(localStorage.getItem("user"))
+// // Registro de usuario
+// console.log(localStorage.getItem("user"))
 
 document.getElementById('registro-form').addEventListener('submit', function(event) {
     event.preventDefault();
@@ -21,19 +21,23 @@ document.getElementById('registro-form').addEventListener('submit', function(eve
     // Guardar la información
     const user = {
         username,
-        email,
-        password
+        password,
+        "compras":[]
     };
+
 
     console.log(username.value)
     console.log("bandera1")
 
     console.log(username)
 
-    localStorage.setItem('user', JSON.stringify(user));
-    console.log("bandera2")
+    localStorage.setItem(email, JSON.stringify(user));
 
     alert('Registro exitoso');
     window.location.href = "../login.html";
 });
 
+
+// get_data_localStorage(){
+
+// }
