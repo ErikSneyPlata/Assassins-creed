@@ -227,6 +227,10 @@ p {
     .header-text h1 {
         font-size: 50px;
     }
+    #login-link, #logout-button{
+        width: 60vw;
+
+    }
 }
 
 @media (max-width: 480px) {
@@ -244,6 +248,7 @@ p {
     }
     #login-link, #logout-button{
         width: 60vw;
+
     }
 }
 

@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = emailElement.value;
         const password = passwordElement.value;
 
-        const storedUser = JSON.parse(localStorage.getItem('user'));
+        const storedUser = JSON.parse(localStorage.getItem(email));
 
-        if (storedUser && email === storedUser.email && password === storedUser.password) {
+        if (storedUser && password === storedUser.password) {
             localStorage.setItem('loggedInUser', JSON.stringify(storedUser));
             window.location.href = '/index.html';
         } else {
