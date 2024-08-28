@@ -10,8 +10,8 @@ if (loggedInUser) {
     document.getElementById('login-link').style.display = 'inline-block';
 }
 
-// Manejar el cierre de sesión
+// cierre de sesión
 document.getElementById('logout-button').addEventListener('click', function() {
     localStorage.removeItem('loggedInUser');
-    window.location.href = '/personajes.html'; // Redirigir a la página de inicio después de cerrar sesión
+    window.location.href = '/personajes.html'; 
 });

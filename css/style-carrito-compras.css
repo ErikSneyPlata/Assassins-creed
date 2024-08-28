@@ -1,0 +1,122 @@
+.cart-count {
+    position: absolute;
+    top: -10px; /* Ajusta la posición vertical */
+    right: -10px; /* Ajusta la posición horizontal */
+    background: tomato;
+    color: white;
+    border-radius: 50%;
+    width: 24px; /* Tamaño del contador */
+    height: 24px; /* Tamaño del contador */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px; /* Tamaño del texto */
+    font-weight: bold;
+    z-index: 10000; /* Valor alto para asegurar que esté encima del ícono */
+}
+
+
+.cart-container {
+    position: fixed; /* Necesario para posicionar el contador en relación con el contenedor */
+    top: 200px;
+    right: 20px;
+    width: 60px; /* Tamaño del círculo */
+    height: 60px; /* Tamaño del círculo */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo del círculo */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    display: flex; /* Utiliza flexbox para centrar el contenido */
+    align-items: center; /* Alinea verticalmente el contenido en el centro */
+    justify-content: center; /* Alinea horizontalmente el contenido en el centro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el contenedor */
+    z-index: 9999;
+}
+
+.cart-icon {
+    width: 40px; /* Ajusta según sea necesario */
+    height: 40px; /* Ajusta según sea necesario */
+}
+
+.cart-container:hover .cart-icon {
+    transform: scale(1.1);
+}
+
+.cart {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.9); /* Hacemos el fondo más oscuro para mejorar la legibilidad */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Hacemos la sombra más sutil */
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(20px); /* Inicialmente desplazado hacia abajo */
+}
+
+.cart.show {
+    display: block;
+    opacity: 1; /* Hacemos visible cuando se muestra */
+    transform: translateY(0); /* Regresa a la posición original */
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column; /* Para que los ítems se apilen verticalmente */
+    max-height: 200px; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto; /* Habilita el scroll vertical cuando sea necesario */
+    padding-right: 10px; /* Para evitar que el contenido se oculte detrás de la barra de scroll */
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos en la fila */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px;
+    border-bottom: 1px solid #fff; /* Línea de separación entre ítems */
+    background: rgba(0, 0, 0, 0.7); /* Fondo ligeramente más claro para los ítems */
+}.cart-item span {
+    flex: 1; /* Toma el espacio disponible */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.cart-item span:first-child {
+    text-align: left; /* Alinea el primer span a la izquierda si lo prefieres */
+}
+
+.cart-item span:last-child {
+    text-align: right; /* Alinea el último span a la derecha si lo prefieres */
+}
+
+.remove-button {
+    background: tomato;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.remove-button:hover {
+    background: darkred;
+}
+.checkout-button {
+    background: linear-gradient(90deg, rgba(245, 99, 72, 1) 20%, rgba(254, 148, 32, 1) 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+    font-size: 16px; /* Ajustamos el tamaño del texto */
+}
+
+.checkout-button:hover {
+    background: linear-gradient(90deg, rgba(126, 111, 94, 0.761) 20%, rgba(245, 72, 72, 0.818) 100%);
+}

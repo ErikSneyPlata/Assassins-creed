@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style-carrito-compras.css">
     <title>WICREED</title>
 </head>
 <body>
@@ -17,17 +18,22 @@
             <nav class="navbar">
                 <ul id="navbar-a">
                     <li><a href="/index.html">Inicio</a></li>
-                    <li><a href="html/juegos.html">Juegos</a></li>
-                    <li><a href="html/personajes.html">Personajes</a></li>
-                    <li><a href="html/historia.html">Historia</a></li>
-                    <li><a href="html/multimedia.html">Multimedia</a></li>
-                    <li><a href="html/tienda.html">Tienda</a></li>
+                    <li><a href="/html/juegos.html">Juegos</a></li>
+                    <li><a href="/html/personajes.html">Personajes</a></li>
+                    <li><a href="/html/historia.html">Historia</a></li>
+                    <li><a href="/html/multimendia.html">Multimedia</a></li>
+                    <li><a href="/html/tienda.html">Tienda</a></li>
                     <li id="auth-links">
                         <a href="/html/login.html" id="login-link">ingresar</a>
                         <a href="#" id="logout-button" style="display: none;">Cerrar Sesión</a>
                     </li>
                 </ul>
             </nav>
+            <div class="cart-container">
+                <img src="/images/cart-icon.png" alt="Carrito" class="cart-icon">
+                <span class="cart-count">0</span>
+            </div>
+        </div>
         </div>
 
         <div class="header-content container">
@@ -36,7 +42,7 @@
                 <p>
                     ¡Descubre Assassin's Creed Shadows, el capítulo más oscuro y emocionante de la saga! Sumérgete en una épica aventura de sigilo y acción en un mundo abierto, y desvela los secretos que redefinirán la historia de los Asesinos. No te pierdas esta oportunidad de experimentar la serie como nunca antes. ¡Compra ahora y sé el primero en desvelar las sombras del pasado!
                 </p>
-                <a href="/login.html" class="btn-1">COMPRAR AHORA</a>
+                <a href="/html/tienda.html" class="btn-1">COMPRAR AHORA</a>
             </div>
         </div>
     </header>
@@ -68,6 +74,14 @@
             </p>
         </article>
     </main>
+    <div class="cart">
+        <h2>Tu Carrito</h2>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <strong>Total:</strong> $<span id="cart-total-price">0</span>
+        </div>
+        <button id="checkout-button" class="checkout-button">Proceder al Pago</button>
+    </div>
     <footer>
         <hr>
         <p>This page is for all the people who like this game.</p>  
@@ -76,4 +90,5 @@
 
     <script src="javascript/index.js"></script>
 </body>
+<script src="/javascript/carrito-compras.js"></script>
 </html>
