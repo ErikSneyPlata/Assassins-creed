@@ -34,7 +34,7 @@ document.getElementById('registro-form').addEventListener('submit', function(eve
     localStorage.setItem(email, JSON.stringify(user));
 
     alert('Registro exitoso');
-    window.location.href = "../login.html";
+    window.location.href = "../html/login.html";
 });
 
 

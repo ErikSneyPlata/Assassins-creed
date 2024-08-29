@@ -17,14 +17,17 @@
                 <img src="/images/barra-menu.png" alt="menu" class="menu-icon">
             </label>
             <nav class="navbar">
-                <ul>
+                <ul id="navbar-a">
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="juegos.html">Juegos</a></li>
                     <li><a href="personajes.html">Personajes</a></li>
                     <li><a href="historia.html">Historia</a></li>
                     <li><a href="multimendia.html">Multimedia</a></li>
                     <li><a href="tienda.html">Tienda</a></li>
-                    <li><a href="login.html" id="login">Ingresar</a></li>
+                    <li id="auth-links">
+                        <a href="login.html" id="login-link">Ingresar</a>
+                        <a href="#" id="logout-button" style="display: none;">Cerrar Sesión</a>
+                    </li>
                 </ul>
             </nav>
             <div class="cart-container">
@@ -97,7 +100,7 @@
         </div>
         <button id="checkout-button" class="checkout-button">Proceder al Pago</button>
     </div>
-    <hr
+    <hr>
     <footer>
         <hr>
         <p>This page is for all the people who like this game.</p>  
@@ -107,4 +110,5 @@
 
 </body>
 <script src="../javascript/carrito-compras.js"></script>
+<script src="../javascript/personajes.js"></script>
 </html>

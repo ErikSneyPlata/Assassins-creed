@@ -7,11 +7,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     mostrarCarrito();
 
+    
+
     const cartIcon = document.querySelector('.cart-icon');
     const cart = document.querySelector('.cart');
 
     cartIcon.addEventListener('click', () => {
         cart.classList.toggle('show');
+    });
+
+    document.querySelector('#checkout-button').addEventListener('click', function() {
+        const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+    
+        if (loggedInUser) {
+            const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+            
+            // Asumiendo que quieres agregar el carrito de compras al usuario logueado
+            loggedInUser.compras = loggedInUser.compras.concat(carrito);
+    
+            // Actualiza el usuario en localStorage
+            localStorage.setItem('loggedInUser', JSON.stringify(loggedInUser));
+    
+            // Redirige a la página de pago o de confirmación de compra
+            alert("COMPRA EXITOSA, SE HA REGISTRADO TU COMPRA."); // Cambia a la página correspondiente
+            eliminarTodoPorCompra()
+        } else {
+            // Redirige al login si no está autenticado
+            window.location.href = '../html/login.html';
+        }
     });
     
 });
@@ -81,11 +104,27 @@ function eliminarDelCarrito(id) {
     mostrarCarrito();
 }
 
+document.addEventListener('click', (event) => {
+    if (event.target.classList.contains('checkout-button')) {
+        const id = event.target.getAttribute('cart-item');
+        eliminarTodoPorCompra(id);
+    }
+});
+
+function eliminarTodoPorCompra(id) {
+    let carrito = []
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+    mostrarCarrito();
+}
 
 function actualizarContadorCarrito() {
     const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     const totalItems = carrito.reduce((acc, item) => acc + item.cantidad, 0);
     console.log('Total en el carrito:', totalItems); // Verificar el número total de productos
     document.querySelector('.cart-count').textContent = totalItems;
+
+    
 }
+
+
 
