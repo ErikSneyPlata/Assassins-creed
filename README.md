@@ -2,6 +2,10 @@
 
 Bienvenido a la página web de Assassin's Creed Fans. Esta página está dedicada a todos los fanáticos de la saga de videojuegos Assassin's Creed. Aquí encontrarás información sobre los juegos, personajes, historia y multimedia relacionada con la serie.
 
+
+YA PUEDES HACER COMPRAS DIRECTAMENTE Y REGISTRARTE, ¡REGISTRATE!
+
+
 ## Tabla de Contenidos👨🏽‍💻
 
 | Sección            | Descripción                                        |
@@ -114,5 +118,3 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 ```
 Este proyecto es de código abierto y se distribuye bajo la licencia MIT.
 ```
-
-# ᶠᶸᶜᵏᵧₒᵤ!   ᶠYͧoͨᵏu𓀐𓂸𓀐𓂸  ( ͡° ͜ʖ ͡°)
